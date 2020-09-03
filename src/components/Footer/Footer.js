@@ -13,6 +13,11 @@ const Footer = () => {
     return(
         <div className="footer">
            <div className="footer__left">
+               <img className="footer__albumLogo"  alt="album"/>
+               <div className="footer__songInfo">
+                        <h4>No song is palying</h4>
+                        <p>...</p>
+               </div>
 
            </div>
 
@@ -33,7 +38,7 @@ const Footer = () => {
                        <VolumeDownIcon/>
                    </Grid>
                    <Grid item xs>
-                       <Slider/>
+                      <Slider/>
                    </Grid>
                </Grid>
            </div>
