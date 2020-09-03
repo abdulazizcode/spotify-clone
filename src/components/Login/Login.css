@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Spotiy';
+    font-style: normal;
+    font-weight: 800;
+    /* src: url('../fonts/Gotham-Black.otf'); */
+    src: url('../fonts//GothamBold.ttf');
+  }
+
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.login > img{
+    width: 100%;
+}
+
+.login > a{
+    padding: 20px;
+    border-radius: 99px;
+    background-color: #1db954;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    font-family: 'Spotiy';
+}
